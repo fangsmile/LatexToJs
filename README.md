@@ -18,5 +18,4 @@ var LatexToJs = require("../LatexToJs.js").default;
 var latex="\sin23 + \sin\left(\tan39\right)";
 
 LatexToJs(latex);
-```javascript
-
+```
