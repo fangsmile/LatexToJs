@@ -19,3 +19,5 @@ var latex="\sin23 + \sin\left(\tan39\right)";
 
 LatexToJs(latex);
 ```
+
+转换的结果可以通过 [math.js](https://mathjs.org/) 计算结果
