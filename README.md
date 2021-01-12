@@ -14,9 +14,9 @@ var LatexToJs = require("../LatexToJs.js").default;
 ```
 
 转换公式：
-
+```javascript
 var latex="\sin23 + \sin\left(\tan39\right)";
 
 LatexToJs(latex);
-
+```javascript
 
