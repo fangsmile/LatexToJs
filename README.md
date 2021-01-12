@@ -14,6 +14,7 @@ var LatexToJs = require("../LatexToJs.js").default;
 调用函数
 如公式：
 var latex="\sin23 + \sin\left(\tan39\right)";
+
 LatexToJs(latex);
 
 
