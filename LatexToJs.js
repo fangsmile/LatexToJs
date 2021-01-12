@@ -1,4 +1,4 @@
-export default function (input) {
+var LatexToJs= function (input) {
     let init, fraction, square_root, nth_root, nth_power, sin, cos, tan, sinCosTanFramework, convert_others;
 
     init = function () {
@@ -276,3 +276,5 @@ export default function (input) {
         console.log("has Error")
     }
 }
+window.LatexToJs=LatexToJs;
+export default LatexToJs;
