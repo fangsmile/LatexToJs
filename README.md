@@ -6,15 +6,14 @@ latex convert to mathematical formula of JavaScript form
 使用如下：
 
 引用该文件，可以在html中引用或者require引用
-
+```html
 <script src="../LatexToJs.js"></script>
 or
 
 var LatexToJs = require("../LatexToJs.js").default;
+```
 
-
-调用函数
-如公式：
+转换公式：
 
 var latex="\sin23 + \sin\left(\tan39\right)";
 
